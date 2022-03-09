@@ -1,3 +1,4 @@
+const user = require('../../models/user');
 const postsResolvers =require('./posts');
 const usersResolvers = require('./users');
 
@@ -6,5 +7,9 @@ Query: {
    ...postsResolvers.Query
 
 },
+Mutation: {
+    ...usersResolvers.Mutation
+}
+
 
  };
