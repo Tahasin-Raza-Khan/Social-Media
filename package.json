@@ -1,0 +1,25 @@
+{
+  "name": "Social_Media",
+  "version": "1.0.0",
+  "description": "```shell\r $mysql -u root \r ```\r ```mysql\r   create database sbsocialmediadb;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tahasin-Raza-Khan/Social-Media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tahasin-Raza-Khan/Social-Media/issues"
+  },
+  "homepage": "https://github.com/Tahasin-Raza-Khan/Social-Media#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
