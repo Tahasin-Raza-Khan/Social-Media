@@ -4,7 +4,10 @@
   "description": "```shell\r $mysql -u root \r ```\r ```mysql\r   create database sbsocialmediadb;",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+     "start": "node src/server.js",
+    "test": "mocha test/setup.js test/**/*.test.js",
+    "cover": "nyc --reporter=lcov npm run test"
   },
   "repository": {
     "type": "git",
