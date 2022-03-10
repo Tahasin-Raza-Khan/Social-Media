@@ -1,28 +1,25 @@
 {
   "name": "Social_Media",
   "version": "1.0.0",
-  "description": "```shell\r $mysql -u root \r ```\r ```mysql\r   create database sbsocialmediadb;",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    
-     "start": "node src/server.js",
+    "start": "node src/server.js",
     "test": "mocha test/setup.js test/**/*.test.js",
     "cover": "nyc --reporter=lcov npm run test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tahasin-Raza-Khan/Social-Media.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tahasin-Raza-Khan/Social-Media/issues"
-  },
-  "homepage": "https://github.com/Tahasin-Raza-Khan/Social-Media#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.17.0"
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1"
   }
 }
